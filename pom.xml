@@ -40,8 +40,8 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <id>checkstyle-verify-check</id>
-                        <phase>verify</phase>
+                        <id>checkstyle-check</id>
+<!--                        <phase>verify</phase>-->
                         <goals>
                             <goal>check</goal>
                         </goals>
